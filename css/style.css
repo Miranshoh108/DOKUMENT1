@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container1 {
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 1400px) {
+  .container1 {
+    width: 1350px;
+    margin: 0 auto;
+  }
+}
+
+
+.img1 {
+  background-image: url(../img/phonecard.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.img2 {
+  background-image: url(../img/phone-2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.img3 {
+  background-image: url(../img/poy.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
